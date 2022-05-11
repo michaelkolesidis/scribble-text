@@ -24,4 +24,9 @@ function draw() {
   line(x, y, newX, newY);
   x = newX;
   y = newY;
+
+  fill(255)
+  textSize(width / 6);
+  textAlign(CENTER, CENTER);
+  text("INTO\nTHE\nDARK", width / 2, height / 2);
 }
