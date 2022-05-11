@@ -1,3 +1,3 @@
-# scribble-text
+# Scribble Text
 
-https://editor.p5js.org/michaelkolesidis/sketches/LgZNueEaY
+Text appears after scribbling.
