@@ -11,7 +11,9 @@ function setup() {
     windowWidth - (windowWidth * 0.3) / 100,
     windowHeight - (windowHeight * 0.4) / 100
   );
+
   background(255);
+  
   x = width / 2;
   y = height / 2;
 }
