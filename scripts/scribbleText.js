@@ -5,8 +5,8 @@
  */
 
 let x, y, newX, newY;
-let white = 255;
-let black = 0;
+let color1 = 255;
+let color2 = 0;
 
 function setup() {
   createCanvas(
@@ -14,14 +14,14 @@ function setup() {
     windowHeight - (windowHeight * 0.4) / 100
   );
 
-  background(white);
+  background(color1);
 
   x = width / 2;
   y = height / 2;
 }
 
 function draw() {
-  stroke(black);
+  stroke(color2);
   strokeWeight(4);
 
   newX = random(-50, width + 50);
@@ -30,7 +30,7 @@ function draw() {
   x = newX;
   y = newY;
 
-  fill(white)
+  fill(color1)
   noStroke();
   textSize(width / 6);
   textAlign(CENTER, CENTER);
@@ -39,8 +39,8 @@ function draw() {
 
 function mouseClicked() {
 let temp;
-temp = white;
-white = black;
-black = temp;
-background(white);
+temp = color1;
+color1 = color2;
+color2 = temp;
+background(color1);
 }
