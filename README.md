@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/scribble-text.gif" width="400px">
+  <img src="./assets/scribble-text-01.gif" width="400px">
   <h1>Scribble Text</h1>
   
   <h3></h3>
