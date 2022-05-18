@@ -3,8 +3,15 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: #000;
+  background: rgba(0, 0, 0, 0);
   font-family: sans-serif;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 footer {

@@ -9,10 +9,7 @@ let color1 = 255;
 let color2 = 0;
 
 function setup() {
-  createCanvas(
-    windowWidth - (windowWidth * 0.3) / 100,
-    windowHeight - (windowHeight * 0.4) / 100
-  );
+  createCanvas(windowWidth, windowHeight);
 
   background(color1);
 
@@ -43,4 +40,8 @@ temp = color1;
 color1 = color2;
 color2 = temp;
 background(color1);
+}
+
+function windowResized() {
+  resizeCanvas(window.innerWidth, window.innerHeight);
 }
