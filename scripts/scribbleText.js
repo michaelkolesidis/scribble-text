@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2022 Michael Kolesidis
  * MIT License
- * 
+ *
  */
 
 let x, y, newX, newY;
@@ -27,7 +27,7 @@ function draw() {
   x = newX;
   y = newY;
 
-  fill(color1)
+  fill(color1);
   noStroke();
   textSize(width / 6);
   textAlign(CENTER, CENTER);
@@ -35,13 +35,33 @@ function draw() {
 }
 
 function mouseClicked() {
-let temp;
-temp = color1;
-color1 = color2;
-color2 = temp;
-background(color1);
+  let temp;
+  temp = color1;
+  color1 = color2;
+  color2 = temp;
+  background(color1);
 }
 
 function windowResized() {
   resizeCanvas(window.innerWidth, window.innerHeight);
 }
+
+// Fullscreen mode
+window.addEventListener("dblclick", () => {
+  const fullscreenElement =
+    document.fullscreenElement || document.webkitFullscreenElement;
+
+  if (!fullscreenElement) {
+    if (canvas.requestFullscreen) {
+      canvas.requestFullscreen();
+    } else if (canvas.webkitRequestFullscreen) {
+      canvas.webkitRequestFullscreen();
+    }
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    }
+  }
+});

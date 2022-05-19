@@ -29,7 +29,7 @@
 
 <p>A line is drawn from the middle of the canvas to a random point. A new line is drawn from that random point, to a new random point, and so on, and so on. In the meanwhile, some text appears.</p>
 
-<p>Click to switch colors and redraw.</p>
+<p>Click to switch colors and redraw, double-click to enter fullscreen mode, double-click again (or press ESC) to leave fullscreen mode.</p>
 
 ## Screenshot
 
