@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2022 Michael Kolesidis
- * MIT License
+ * Copyright (c) 2023 Michael Kolesidis
+ * GNU Affero General Public License v3.0
+ * https://www.gnu.org/licenses/gpl-3.0.html
  *
  */
 
@@ -26,12 +27,6 @@ function draw() {
   line(x, y, newX, newY);
   x = newX;
   y = newY;
-
-  fill(color1);
-  noStroke();
-  textSize(width / 6);
-  textAlign(CENTER, CENTER);
-  text("READ\nBETWEEN\nTHE LINES", width / 2, height / 2);
 }
 
 function mouseClicked() {

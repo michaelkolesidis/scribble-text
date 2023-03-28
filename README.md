@@ -1,16 +1,10 @@
-<div align="center">
-  <img src="./assets/scribble-text-01.gif" width="400px">
-  <h1>Scribble Text</h1>
-  
-  <h3></h3>
+![screencast](./assets/screencast.gif)
 
-  <a href="https://scribble-text.netlify.app/"><h3>Try me!</h3></a>
+Scribble Text (Read Between the Lines)
 
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/88343c5e-2609-4d17-8530-1e65ac90b111/deploy-status)](https://app.netlify.com/sites/scribble-text/deploys)
+[**Try me!**](https://scribble-text.netlify.app/)
 
-</div>
-  
-  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88343c5e-2609-4d17-8530-1e65ac90b111/deploy-status)](https://app.netlify.com/sites/scribble-text/deploys)
 
 ## Technologies Used
 
@@ -23,40 +17,23 @@
 <img src="https://github.com/michaelkolesidis/tech-icons/blob/main/icons/html5/html5-plain.svg" height="50px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-
 ## Description
 
-<p>A line is drawn from the middle of the canvas to a random point. A new line is drawn from that random point, to a new random point, and so on, and so on. In the meanwhile, some text appears.</p>
+A line is drawn from the middle of the canvas to a random point. A new line is drawn from that random point, to a new random point, and so on, and so on. In the meanwhile, some text appears.
 
-<p>Click to switch colors and redraw, double-click to enter fullscreen mode, double-click again (or press ESC) to leave fullscreen mode.</p>
+Click to switch colors and redraw, double-click to enter fullscreen mode, double-click again (or press ESC) to leave fullscreen mode.
 
-## Screenshot
+## Screenshots
 
+[screenshot](./assets/screenshot-01.png)
 
+[screenshot](./assets/screenshot-02.png)
 
-
+[screenshot](./assets/screenshot-03.png)
 
 ## License
 
-Copyright (c) 2022 Michael Kolesidis<br>
-Licensed under the [MIT License](https://github.com/michaelkolesidis/scribble-text/blob/main/LICENSE).
+<a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/AGPLv3_Logo.svg" height="100px" /></a>
 
-
-
-<br>
-<br>
-
-
-
-[//]: # (Free Software)
-<div align="center">
-  <br>
-  <br>
-
-  <a href="https://github.com/michaelkolesidis/made-with-linux" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Made_with_Linux.png/240px-Made_with_Linux.png"></a>
-</div>
-<br>                                                      
-<div align="center">
-  <a href="https://endsoftwarepatents.org/innovating-without-patents"><img style="height: 90px;" src="https://static.fsf.org/nosvn/esp/logos/innovating-without-patents.svg"></a>
-</div>
+Copyright (c) 2023 Michael Kolesidis<br>
+Licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html).
