@@ -23,11 +23,11 @@ Click to switch colors and redraw, double-click to enter fullscreen mode, double
 
 ## Screenshots
 
-[screenshot](./assets/screenshot-01.png)
+![screenshot](./assets/screenshot-01.png)
 
-[screenshot](./assets/screenshot-02.png)
+![screenshot](./assets/screenshot-02.png)
 
-[screenshot](./assets/screenshot-03.png)
+![screenshot](./assets/screenshot-03.png)
 
 ## License
 
