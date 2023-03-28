@@ -15,6 +15,7 @@ body {
 
 #message {
   height: 100vh;
+  color: #fff;
   line-height: min(9vw, 13.5vh);
   font-weight: 900;
   font-size: min(6vw, 9vh);
@@ -26,6 +27,7 @@ body {
 }
 
 #read {
+  color: #fff;
   font-size: min(23vw, 34.5vh);
   margin-left: max(-2.2vw, -3.3vh);
 }
