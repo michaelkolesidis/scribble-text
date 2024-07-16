@@ -1,8 +1,8 @@
 ![screencast](./assets/screencast.gif)
 
-[**Try me!**](https://scribble-text.netlify.app/)
+## Scribble Text
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/88343c5e-2609-4d17-8530-1e65ac90b111/deploy-status)](https://app.netlify.com/sites/scribble-text/deploys)
+Text gradually appears while scribbling.
 
 ## Technologies Used
 
